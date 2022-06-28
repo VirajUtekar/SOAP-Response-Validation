@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-28T17:40:43 IST" name="Suite" finished-at="2022-06-28T17:40:45 IST" duration-ms="2411">
+    <groups>
+    </groups>
+    <test started-at="2022-06-28T17:40:43 IST" name="Test" finished-at="2022-06-28T17:40:45 IST" duration-ms="2411">
+      <class name="request.Country_Name_Request_By_ISO_Code_Test">
+        <test-method signature="verify_india_name_is_displayed_for_in_iso_code()[pri:0, instance:request.Country_Name_Request_By_ISO_Code_Test@38b27cdc]" started-at="2022-06-28T17:40:45 IST" name="verify_india_name_is_displayed_for_in_iso_code" finished-at="2022-06-28T17:40:45 IST" duration-ms="318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_india_name_is_displayed_for_in_iso_code -->
+      </class> <!-- request.Country_Name_Request_By_ISO_Code_Test -->
+      <class name="request.Country_Flag_Request_By_ISO_Code_Test">
+        <test-method signature="verify_india_flag_is_displayed_for_in_iso_code()[pri:0, instance:request.Country_Flag_Request_By_ISO_Code_Test@36060e]" started-at="2022-06-28T17:40:43 IST" name="verify_india_flag_is_displayed_for_in_iso_code" finished-at="2022-06-28T17:40:45 IST" duration-ms="1733" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_india_flag_is_displayed_for_in_iso_code -->
+      </class> <!-- request.Country_Flag_Request_By_ISO_Code_Test -->
+      <class name="request.Country_Capital_Request_By_ISO_Code_Test">
+        <test-method signature="verify_country_capital_request_by_iso_code()[pri:0, instance:request.Country_Capital_Request_By_ISO_Code_Test@54504ecd]" started-at="2022-06-28T17:40:45 IST" name="verify_country_capital_request_by_iso_code" finished-at="2022-06-28T17:40:45 IST" duration-ms="301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verify_country_capital_request_by_iso_code -->
+      </class> <!-- request.Country_Capital_Request_By_ISO_Code_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

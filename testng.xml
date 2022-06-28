@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+<listeners>
+ <listener class-name="request.Listener"/>
+</listeners>
+
+  <test  name="Test">
+    <classes>
+      <class name="request.Country_Flag_Request_By_ISO_Code_Test"/>
+      <class name="request.Country_Capital_Request_By_ISO_Code_Test"/>
+      <class name="request.Country_Name_Request_By_ISO_Code_Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
